@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 30vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.8vw;
+    grid-gap: 3vw;
+    position: relative;
+}
+/*
+não lembro como fazer NADA
+
+main > div:nth-child(n + 4){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+.tofu::after{
+    content: 'Grão de soja e água';
+    width: 50vw;
+}
+
+.strogonoff::after{
+    content: 'Proteína de soja, creme de leite veg e champignon';
+   
+}
+
+.falafel::after{
+    content: 'Grão de bico e farinha de trigo';
+}
+.lasanha::after{
+    content: 'Massa, proteína de soja e/ou legumes e queijo';  
+}   
+
+.hambuerguer::after{
+    content: 'feijão, beterraba e arroz';
+}
+
+.batata::after{
+    content: 'batata';
+}
+
+.pizza::after{
+    content: 'farinha, fermento, água, azeite, açúcar, sal, queijo, tomate e manjericão ';
+}
+
+.tabule::after{
+    content: 'farinha de kibe';
+}*/
